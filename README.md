@@ -12,11 +12,11 @@ The objective of this project is to develop a machine learning model that accura
 
 The dataset used for this project has 7,920 records and has the following columns:
 
-id - A unique identifier for each tweet
+•	id - A unique identifier for each tweet
 
-label - A label indicating whether the tweet is positive or negative (1 = positive, 0 = negative) [Target Variable]
+•	label - A label indicating whether the tweet is positive or negative (1 = positive, 0 = negative) [Target Variable]
 
-tweet - the text of the tweet
+•	tweet - the text of the tweet
 
 **Project Description:**
 
@@ -31,5 +31,11 @@ tweet - the text of the tweet
 • Developed a Logistic Regression model to classify the sentiments of tweets.
 
 • Achieved an F1 score of 0.77, demonstrating effective sentiment classification.
+
+**Observation:**
+
+•	Most of the tweets are related to iphone, apple, samsung, sony but punctuations are also included in top common words.
+
+•	Few more common words are instagram, love, cute, twitter, phone, rt (which stands for re-tweeted)
 
 **Skills:** Machine Learning · Data Pre-Processing · Contraction Mapping · Tokenization · Lemmatization · Feature Extraction · Logistic Regression
